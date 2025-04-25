@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onedir --console --name "mkfile" --optimize "-1"  .\main.py
