@@ -3,7 +3,7 @@ import os
 
 parser = argparse.ArgumentParser(prog="mkfile",
                                  description="A command that makes files.",
-                                 epilog="Command made by SidTheLoser")
+                                 epilog="Command made by sidtheloser")
 
 parser.add_argument('filename', 
                     help="name of the file you want to create")
