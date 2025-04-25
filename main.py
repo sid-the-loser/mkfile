@@ -1,5 +1,4 @@
-import argparse
-import os
+import argparse, os
 
 parser = argparse.ArgumentParser(prog="mkfile",
                                  description="A command that makes files.",
@@ -19,4 +18,4 @@ if not os.path.exists(filename):
     print(os.path.basename(filename) if ommit_flag else os.path.abspath(filename), "created!")
 
 else:
-    print(os.path.basename(filename) if ommit_flag else os.path.abspath(filename), "already exists!") # create a custom error here
+    print(os.path.basename(filename) if ommit_flag else os.path.abspath(filename), "already exists!")

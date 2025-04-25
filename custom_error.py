@@ -1,2 +1,0 @@
-class FileAlreadyExists(Exception):
-    pass
